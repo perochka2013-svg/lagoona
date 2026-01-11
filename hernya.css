@@ -1,0 +1,248 @@
+.header-top{
+    display: flex;
+}
+.header-bottom{
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 14px 45px ;
+}
+.user{
+    display: inline-flex;
+    min-width: 355px;
+    color: #CC9933;
+    margin-left: auto;
+     align-items: center;
+    
+}
+.decoration{
+    height: 30px;
+    align-items: center;
+   
+}
+.button{
+    color: #CC9933;
+    border-color: #CC9933;
+    border-radius: 10px;
+    border-width: 1px;
+    text-decoration: none;
+    border-style: solid;
+    padding: 13px 20px;
+    background-color: #fff;
+}
+
+.buttons :not(:last-child){
+    margin-right: 40px;
+}
+.buttons{
+    margin-left: auto;
+
+}
+.nav {
+    align-items: center;
+    display: flex;
+    margin-right:  45px;
+    color: #666666;   
+    
+}
+.logo{
+    margin: 30px 0;
+}
+.number{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+.card{
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    margin-bottom:12px ;
+    padding: 25px;
+    background-size:cover;
+    border-radius: 15px;
+
+}
+.card:first-child {
+    background-image: url('laguna-1.jpg');
+     position: relative;
+    
+    
+}
+.card-list{
+    display: flex;
+    gap: 24px;
+}
+.cards-two{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: #F1F1F1;
+}
+.rectangle{
+    display: flex;
+}
+.text-link{
+    color: #F0BF5F;
+    font-size: 16px;
+}
+.block{
+    background-color: #fff;
+    border-radius: 15px;
+     
+    display: inline-flex;
+    flex-direction: row;
+    min-width: 350px;
+    padding: 26px 126px 35px 45px;
+    margin-bottom: 165px;
+    margin-left: 24px;
+    min-height: 340px;
+   
+}   
+.block-one{
+    background-image: url('background-1.png');
+    background-repeat: no-repeat;
+    display: cover;
+
+} 
+.block-text{
+    font-size: 16px;
+
+
+}
+.text-list-parent{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    border-radius: 15px;
+    background-color: #fff;
+    min-width: 199px;
+    min-height: 199px;
+    padding: 32px 45px;
+    flex-basis: calc(17% - 10px);
+}
+.box-list{
+    display: flex;
+    flex-direction: column;
+}
+.box-list-two{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box-img{
+    height: 64px;
+    width: 64px;
+}
+.box-text{
+    min-width: 160px;
+}
+.price{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.product{
+    color:#fff ;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.product-two{
+    color:#fff ;
+    font-weight: 700;
+    font-size: 60px;
+    
+}
+.price-two{
+
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.subtitle{
+    margin-left:40px;
+    font-size: 40px;
+}
+@font-face {
+  font-family: 'Mller'; /* Имя, по которому будем вызывать шрифт */
+  src: url('Müller.zip') format('woff2'), /* Путь к файлу шрифта */
+       url('Müller.zip') format('woff'); /* Другие форматы для совместимости */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Теперь используем его */
+* {
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+.card:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('darken.svg');
+    background-repeat: no-repeat;
+    background-size:  contain;
+    z-index: 1;
+
+
+   
+}
+.darken{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 270px;
+}
+.product{
+    position: relative;
+    z-index:3 ;
+}
+.price{
+    position: relative;
+    z-index: 3;
+}
+.text-link{
+    position: relative;
+    z-index: 3;
+}
+.card:last-child{
+    background-image: url('laguna-2.jpg');
+    position: relative;
+    z-index: 0;
+}
+.card-two{
+    background-image: url('laguna-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 45px;
+    min-height: 540px;
+}
+.block-text-two{
+    margin-top: 165px;
+
+}
+.block-two{
+    background-image: url('background-2.png');
+    background-repeat: no-repeat;
+    display: cover;
+
+}
+.block-tree{
+    background-image: url('background-3.png');
+    background-repeat: no-repeat;
+    display: cover;
+
+}
+.block-four{
+    background-image: url('background-4.png');
+    background-repeat: no-repeat;
+    display: cover;
+
+}

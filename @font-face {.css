@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Mller'; /* Имя, по которому будем вызывать шрифт */
+  src: url('m') format('woff2'), /* Путь к файлу шрифта */
+       url('fonts/myfont.woff') format('woff'); /* Другие форматы для совместимости */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Теперь используем его */
+h1 {
+  font-family: 'MyCustomFont', sans-serif;
+}

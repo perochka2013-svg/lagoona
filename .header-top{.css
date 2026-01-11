@@ -1,0 +1,6 @@
+.header-top{
+    display: flex;
+}
+.header-bottom{
+    display: inline-block;
+}
