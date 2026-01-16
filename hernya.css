@@ -61,17 +61,17 @@
     position: relative;
     z-index: 0;
     background-repeat: no-repeat;
-    margin-bottom:12px ;
     padding: 25px;
     background-size:cover;
     border-radius: 15px;
+    min-width: 573px;
+    min-height: 258px;
 
 }
 .card:first-child {
     background-image: url('laguna-1.jpg');
-     position: relative;
-    
-    
+    position: relative;
+    margin-bottom: 24px;  
 }
 .card-list{
     display: flex;
@@ -80,17 +80,41 @@
 .cards-two{
     display: flex;
     align-items: center;
+    
+    
+    
 }
 body{
     background-color: #F1F1F1;
 }
 .rectangle{
     display: flex;
+    background-image: url('Rectangle\ 2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;     
+}
+.rectangle-one{
+    background-position: 105px;
+
+}
+.rectangle-two{
+    background-position: 285px;
+}
+.rectangle-tree{
+    background-position: 240px;
+}
+.rectangle-four{
+    background-position: 355px;
+}
+.rectangle-five{
+    background-position: 360px;
 }
 .text-link{
     color: #F0BF5F;
-    font-size: 16px;
+    font-size: 20px;
+    
 }
+
 .block{
     background-color: #fff;
     border-radius: 15px;
@@ -100,7 +124,7 @@ body{
     min-width: 350px;
     padding: 26px 126px 35px 45px;
     margin-bottom: 165px;
-    margin-left: 24px;
+    
     min-height: 340px;
    
 }   
@@ -112,6 +136,7 @@ body{
 } 
 .block-text{
     font-size: 16px;
+    
 
 
 }
@@ -126,6 +151,38 @@ body{
     min-height: 199px;
     padding: 32px 45px;
     flex-basis: calc(17% - 10px);
+    padding-top: 116px;
+}
+.box-image{
+    background-repeat: no-repeat;
+    background-position: 45px;
+    background-position-y: 45px; ;
+    width: 66px;
+    height: 66px;
+}
+.box-image-one{
+    background-image: url('bathtub.svg');
+}
+.box-image-two{
+    background-image: url('hanger.svg');
+}
+.box-image-tree{
+    background-image: url('heating.svg');
+}
+.box-image-four{
+    background-image: url('hotel-key.svg');
+}
+.box-image-five{
+    background-image: url('parking\ \(1\).svg');
+}
+.box-image-six{
+    background-image: url('reception.svg');
+}
+.box-image-seven{
+    background-image: url('security-box.svg');
+}
+.box-image-eight{
+    background-image: url('swimming-pool.svg');
 }
 .box-list{
     display: flex;
@@ -152,6 +209,7 @@ body{
     color:#fff ;
     font-weight: 700;
     font-size: 40px;
+    max-width: 420px;
 
 }
 .product-two{
@@ -169,18 +227,21 @@ body{
 .subtitle{
     margin-left:40px;
     font-size: 40px;
+    font-weight: 400;
+    color: #333;
 }
 @font-face {
   font-family: 'Mller'; /* Имя, по которому будем вызывать шрифт */
-  src: url('Müller.zip') format('woff2'), /* Путь к файлу шрифта */
-       url('Müller.zip') format('woff'); /* Другие форматы для совместимости */
+  src: url('Muller_Font.zip') format('woff2'); /* Путь к файлу шрифта */
+  src: url('Muller_Font.zip') format('woff'); /* Другие форматы для совместимости */
   font-weight: normal;
   font-style: normal;
 }
 
+
 /* Теперь используем его */
 * {
-  font-family: 'MyCustomFont', sans-serif;
+  font-family: 'Mller', sans-serif;
 }
 
 .card:after {
@@ -199,11 +260,13 @@ body{
 .darken{
     background-image: url('darken.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 270px;
+    height:100%;
+    width:100%;
+    
 
 }
 .product{
@@ -228,18 +291,31 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
-    padding: 45px;
-    min-height: 540px;
+    min-width: 573px;
+    height: 100%;
+    
+    
 }
 .block-text-two{
     margin-top: 165px;
+    
 
 }
 .block-two{
     background-image: url('background-2.png');
     background-repeat: no-repeat;
     display: cover;
+    
 
+}
+.card-text{
+    padding-left: 45px;
+    padding-top: 100px;
+    min-height: 180px;
+    min-width: 299px;
+    margin-top: 88px;
+    
+    
 }
 .block-tree{
     background-image: url('background-3.png');
@@ -252,4 +328,16 @@ body{
     background-repeat: no-repeat;
     display: cover;
 
+}
+.block-two{
+    margin-left: 24px;
+}
+.block-four{
+    margin-left: 24px;
+}
+.block-one{
+    margin-right: 24px;
+}
+.block-tree{
+    margin-right: 24px;
 }
