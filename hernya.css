@@ -7,13 +7,15 @@
     border-radius: 15px;
     padding: 14px 45px ;
 }
-.user{
-    display: inline-flex;
-    min-width: 355px;
-    color: #CC9933;
+.user-profile{
     margin-left: auto;
-     align-items: center;
-    
+    color: #CC9933;
+    background-image: url(keyboard_tab.svg);
+    background-repeat: no-repeat;
+    background-position-y: -5px;
+    padding-left: 24px;
+
+}
 }
 .decoration{
     background-image: url('Rectangle\ .svg');
@@ -61,12 +63,18 @@
     position: relative;
     z-index: 0;
     background-repeat: no-repeat;
-    padding: 25px;
+    
     background-size:cover;
     border-radius: 15px;
-    min-width: 573px;
+    width: 100%;
     min-height: 258px;
 
+}
+.cards{
+    width: calc(50% - 12px);
+}
+.card-content{
+    padding: 25px;
 }
 .card:first-child {
     background-image: url('laguna-1.jpg');
@@ -80,6 +88,7 @@
 .cards-two{
     display: flex;
     align-items: center;
+    width: calc(50% - 12px);
     
     
     
@@ -251,24 +260,13 @@ body{
     left: 0;
     background-image: url('darken.svg');
     background-repeat: no-repeat;
-    background-size:  contain;
-    z-index: 1;
-
-
-   
+    background-size:  cover;
+     
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
-.darken{
-    background-image: url('darken.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height:100%;
-    width:100%;
-    
 
-}
 .product{
     position: relative;
     z-index:3 ;
@@ -291,10 +289,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
-    min-width: 573px;
+    width: 100%;
     height: 100%;
-    
-    
 }
 .block-text-two{
     margin-top: 165px;
