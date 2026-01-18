@@ -16,7 +16,6 @@
     padding-left: 24px;
 
 }
-}
 .decoration{
     background-image: url('Rectangle\ .svg');
     background-repeat: no-repeat;
@@ -127,20 +126,27 @@ body{
 .block{
     background-color: #fff;
     border-radius: 15px;
-     
     display: inline-flex;
     flex-direction: row;
-    min-width: 350px;
-    padding: 26px 126px 35px 45px;
-    margin-bottom: 165px;
-    
+    width: calc(100% - 12px);   
     min-height: 340px;
+    gap: 24px
    
-}   
+} 
+.blocks{
+    display: flex;
+    margin-bottom: 24px;
+}  
+.blocks-two{
+    width: 50%;
+    
+}
+
 .block-one{
     background-image: url('background-1.png');
     background-repeat: no-repeat;
-    display: cover;
+    background-size: cover;
+    background-position-y: -165px;
 
 } 
 .block-text{
@@ -161,6 +167,9 @@ body{
     padding: 32px 45px;
     flex-basis: calc(17% - 10px);
     padding-top: 116px;
+}
+.box-list-tree{
+    
 }
 .box-image{
     background-repeat: no-repeat;
@@ -201,6 +210,7 @@ body{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .box-img{
     height: 64px;
@@ -208,6 +218,7 @@ body{
 }
 .box-text{
     min-width: 160px;
+    line-height: 2;
 }
 .price{
     color: #fff;
@@ -234,7 +245,8 @@ body{
     font-weight: 400;
 }
 .subtitle{
-    margin-left:40px;
+    margin-top: 0;
+    padding-left:40px;
     font-size: 40px;
     font-weight: 400;
     color: #333;
@@ -293,14 +305,15 @@ body{
     height: 100%;
 }
 .block-text-two{
-    margin-top: 165px;
-    
+    margin-top: 190px;
+    margin-left: 40px;
 
 }
 .block-two{
     background-image: url('background-2.png');
     background-repeat: no-repeat;
-    display: cover;
+    background-size: cover;
+    background-position-y: -165px;
     
 
 }
@@ -316,13 +329,14 @@ body{
 .block-tree{
     background-image: url('background-3.png');
     background-repeat: no-repeat;
-    display: cover;
-
+    background-size: cover;
+    background-position-y: -165px;
 }
 .block-four{
     background-image: url('background-4.png');
     background-repeat: no-repeat;
-    display: cover;
+    background-size: cover;
+    background-position-y: -165px;
 
 }
 .block-two{
