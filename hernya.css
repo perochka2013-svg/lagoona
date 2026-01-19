@@ -6,6 +6,7 @@
     background-color: #fff;
     border-radius: 15px;
     padding: 14px 45px ;
+    margin-bottom: 70px;
 }
 .user-profile{
     margin-left: auto;
@@ -14,6 +15,9 @@
     background-repeat: no-repeat;
     background-position-y: -5px;
     padding-left: 24px;
+    display: flex;
+    align-items:center ;
+    background-position: left;
 
 }
 .decoration{
@@ -75,6 +79,9 @@
 .card-content{
     padding: 25px;
 }
+.about-us-text{
+    margin-bottom: 70px;
+}
 .card:first-child {
     background-image: url('laguna-1.jpg');
     position: relative;
@@ -83,6 +90,7 @@
 .card-list{
     display: flex;
     gap: 24px;
+    margin-bottom: 70px;
 }
 .cards-two{
     display: flex;
@@ -137,10 +145,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
+    margin-bottom: 70px;
 }  
 .blocks-two{
     width: 50%;
     width: calc(50% - 11px);
+    margin-bottom: 70px;
     
 }
 
