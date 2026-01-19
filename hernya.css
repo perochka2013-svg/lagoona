@@ -127,18 +127,20 @@ body{
     background-color: #fff;
     border-radius: 15px;
     display: inline-flex;
-    flex-direction: row;
-    width: calc(100% - 12px);   
-    min-height: 340px;
-    gap: 24px
+    
+    width: 100%;
+    min-height: 340px
+    
    
 } 
 .blocks{
     display: flex;
-    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 22px;
 }  
 .blocks-two{
     width: 50%;
+    width: calc(50% - 11px);
     
 }
 
@@ -162,7 +164,7 @@ body{
 .box{
     border-radius: 15px;
     background-color: #fff;
-    
+    min-width: 100%;
     min-height: 276px;
    
     flex-basis: calc(25% - 10px);
@@ -209,7 +211,7 @@ body{
 }
 .box-list-two{
     display: flex;
-    gap: 10px;
+    gap: 13px;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -224,7 +226,8 @@ body{
     
 }
 .box-list-tree{
-    margin-bottom: 10px;
+    width: calc(25% - 11px);
+   
 }
 .price{
     color: #fff;
@@ -343,17 +346,4 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -165px;
-
-}
-.block-two{
-    margin-left: 24px;
-}
-.block-four{
-    margin-left: 24px;
-}
-.block-one{
-    margin-right: 24px;
-}
-.block-tree{
-    margin-right: 24px;
 }
