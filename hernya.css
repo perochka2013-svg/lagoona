@@ -81,6 +81,7 @@
 }
 .about-us-text{
     margin-bottom: 70px;
+    line-height: 2;
 }
 .card:first-child {
     background-image: url('laguna-1.jpg');
@@ -150,7 +151,7 @@ body{
 .blocks-two{
     width: 50%;
     width: calc(50% - 11px);
-    margin-bottom: 70px;
+   
     
 }
 
@@ -172,23 +173,21 @@ body{
     flex-direction: column;
 }
 .box{
-    border-radius: 15px;
-    background-color: #fff;
-    min-width: 100%;
-    min-height: 276px;
-   
-    flex-basis: calc(25% - 10px);
+    width: 100%;
     padding-top: 116px;
 }
 .box-list-tree{
+    width: calc(20% - 14px);
+    border-radius: 15px;
+    padding: 32px 45px;
+    background-color: #fff;
     
 }
 .box-image{
     background-repeat: no-repeat;
-    background-position: 45px;
-    background-position-y: 45px; ;
-    width: 66px;
-    height: 66px;
+    background-position: 42px;
+    background-position-y: 0px;
+    
 }
 .box-image-one{
     background-image: url('bathtub.svg');
@@ -221,13 +220,12 @@ body{
 }
 .box-list-two{
     display: flex;
-    gap: 13px;
+    gap: 22px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 .box-img{
-    height: 64px;
-    width: 64px;
+    
 }
 .box-text{
     min-width: 160px;
@@ -236,7 +234,7 @@ body{
     
 }
 .box-list-tree{
-    width: calc(25% - 11px);
+    
    
 }
 .price{
