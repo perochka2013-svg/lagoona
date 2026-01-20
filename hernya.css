@@ -177,16 +177,16 @@ body{
     padding-top: 116px;
 }
 .box-list-tree{
-    width: calc(20% - 14px);
+    width: calc(25% - 17px);
     border-radius: 15px;
     padding: 32px 45px;
     background-color: #fff;
+    box-sizing: border-box;
     
 }
 .box-image{
     background-repeat: no-repeat;
-    background-position: 42px;
-    background-position-y: 0px;
+    
     
 }
 .box-image-one{
@@ -230,7 +230,7 @@ body{
 .box-text{
     min-width: 160px;
     line-height: 2;
-    padding-left: 45px;
+    
     
 }
 .box-list-tree{
